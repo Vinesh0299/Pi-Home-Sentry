@@ -13,6 +13,6 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-    allowedHosts: ['raspberrypi4.local']
+    allowedHosts: ['raspberrypi4.local', 'raspberrypi4']
   },
 })

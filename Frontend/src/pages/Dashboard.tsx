@@ -1,10 +1,9 @@
-import Navbar from "@/components/Navbar.tsx";
+import Navbar from "@/components/Navbar";
 
 function Dashboard() {
     return (
-        <div>
+        <div className="min-h-screen w-screen bg-gray-400">
             <Navbar />
-            <h1>Dashboard</h1>
         </div>
     )
 }
