@@ -6,6 +6,6 @@ WORKDIR /app
 
 RUN go mod download
 
-RUN go build -o main .
+RUN go build -o main ./cmd/server
 
 CMD ["./main"]

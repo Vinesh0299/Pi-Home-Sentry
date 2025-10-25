@@ -1,1 +1,11 @@
 .vscode/
+
+# Ignore all env files
+*/.env*
+
+# Ignoring goland files generated during build
+*/.cache/
+*/.config/
+
+# Log files
+*/*.logs
